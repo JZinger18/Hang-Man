@@ -1,0 +1,55 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+	<!-- Bootstrap CDN -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class = 'container-fluid'>
+	<div class ="row"> 
+		<div class='col-md-12'>
+			<div id='head'>
+			<h1 class='text-center'>Hang Man Car Company Edition</h1>
+			<h4 class='text-center'>Press any key on the keyboard to begin</h4>
+		</div>
+		</div>
+	</div>
+
+
+	<div class ='row'>
+		<div class ='col-md-4 text-center'>
+			<h3> Car Companies</h3>
+			<div id="random-word"></div>
+		</div>
+
+
+	<div class = 'col-md-4 text-center'>
+		<h3>User Progress</h3>
+		<h4>Chances Remaining:</h4>
+		<div id="remaining"> </div>
+		<h4>Letters Guessed:</h4>
+		<div id ="guessed"> </div>
+	</div>
+
+	<div class="col-md-4 text-center">
+		<h3>Score</h3>
+		<h4 id='win'>Wins:</h4>
+		<h4 id ='loss'>Losses:</h4>
+	</div>
+  </div>
+</div>
+
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <script src="./assets/javascript/game.js"></script>	
+</body>
+</html>
